@@ -12,6 +12,6 @@ def health():
 @app.get("/produtos")
 def listar_produtos():
     return [
-        {"id": 1, "nome": "Teclado MecÃ¢nico", "preco": 350.00},
+        {"id": 1, "nome": "Teclado MecÃƒÆ’Ã‚Â¢nico", "preco": 350.00},
         {"id": 2, "nome": "Monitor 27\"", "preco": 1800.00},
     ]
